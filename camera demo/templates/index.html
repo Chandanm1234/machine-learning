@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dress Color and Design</title>
+</head>
+<body>
+    <h1>Upload Dress Photo</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="color">Color: </label>
+        <input type="text" name="color" required><br>
+        <label for="design">Design: </label>
+        <input type="text" name="design" required><br>
+        <input type="file" name="photo" accept="image/*" required><br>
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>
